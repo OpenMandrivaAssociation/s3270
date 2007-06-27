@@ -1,16 +1,14 @@
-%define	pversion	334p6
-
 Summary:	Scripted 3270 Emulator
 Name:		s3270
-Version:	3.3.4p6
+Version:	3.3.6
 Release:	%mkrel 1
 License:	GPL
 Group:		Terminals
 URL:		http://www.geocities.com/SiliconValley/Peaks/7814/
-Source0:	s3270-%{version}.tar.bz2
+Source0:	s3270-%{version}.tgz
 Requires:	x3270 =< %{version}
-BuildRequires:	XFree86-devel
-BuildRoot:	%{_tmppath}/%{name}-%{pversion}-root
+BuildRequires:	X11-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Complete IBM 3278/3279 emulation, TN3270E support, structured
