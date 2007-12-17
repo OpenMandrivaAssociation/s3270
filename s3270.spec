@@ -8,7 +8,6 @@ URL:		http://www.geocities.com/SiliconValley/Peaks/7814/
 Source0:	s3270-%{version}.tgz
 Requires:	x3270 =< %{version}
 BuildRequires:	X11-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Complete IBM 3278/3279 emulation, TN3270E support, structured
