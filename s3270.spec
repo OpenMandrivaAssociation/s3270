@@ -1,7 +1,7 @@
 Summary:	Scripted 3270 Emulator
 Name:		s3270
 Version:	3.3.9ga12
-Release:	%mkrel 3
+Release:	4
 License:	GPL
 Group:		Terminals
 URL:		http://www.geocities.com/SiliconValley/Peaks/7814/
