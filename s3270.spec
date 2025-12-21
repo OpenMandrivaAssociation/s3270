@@ -7,6 +7,11 @@ Group:		Terminals
 URL:		https://www.geocities.com/SiliconValley/Peaks/7814/
 Source0:	http://downloads.sourceforge.net/project/x3270/x3270/%version/suite3270-%version.tgz
 Requires:	x3270 <= %{version}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	openssl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
